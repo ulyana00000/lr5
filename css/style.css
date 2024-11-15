@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxanium:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxanium:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxanium:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Righteous&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.main{
+  padding-left: 5%;
+  padding-right: 5%;
+
+
+
+}
+
+.header {
+    height: 43px;
+    padding-left: calc(50% - 1328px / 2);
+    padding-top: 40px;
+    padding-right: calc(50% - 1328px / 2);
+    
+}
+@media (max-width: 890px) {
+    .logo_header {
+        display: none; 
+    }
+}
+.headers{
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+
+.logo_header {
+    
+    width: 205px;
+    height: 43px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 43px;
+  
+    color: #303031; 
+}
+
+
+.nav-item .nav-link {
+  font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1rem; 
+    color: #333;
+    transition: color 0.3s ease; 
+}
+
+
+.nav-item:last-child .nav-link {
+    color: #71A894; 
+    font-weight: 600;
+}
+
+
+.nav-link:hover {
+    color: #007bff; 
+    
+}
+
+
+@media (max-width: 991px) and (min-width: 770px) {
+  .container .row {
+    display: flex;
+    justify-content: center; /* Центрує всі елементи */
+  }
+
+  .container .col-lg-6, .container .col-md-6, .container .col-lg-5 {
+    flex: 0 0 100%; /* Забезпечує 100% ширину для колонок в цьому діапазоні */
+    max-width: 100%;
+  }
+}
+
+.section1{
+  padding-top: dvh;
+  
+ 
+  font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+  .section1 {
+    padding-top: 8dvh; /* Встановлюємо відступ зверху на 200 пікселів для менших екранів */
+  
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .section1 {
+    padding-top: 5dvh; /* Встановлюємо відступ зверху на 200 пікселів для менших екранів */
+  
+  }
+}
+
+@media (max-width: 800px) {
+  .section1 {
+    padding-top: 14dvh; /* Встановлюємо відступ зверху на 200 пікселів для менших екранів */
+  }
+}
+.text1 h2 {
+font-size: 64px; /* Початковий розмір */
+}
+
+.text1 p {
+font-size: 24px; /* Початковий розмір */
+}
+
+/* Медіа-запит для екранів шириною 991 піксель і менше */
+@media (max-width: 991px) {
+.text1 h2 {
+  font-size: 48px; /* Зміна розміру h2 */
+}
+
+.text1 p {
+  font-size: 12px; /* Зміна розміру p */
+}
+}
+
+
+
+.btni {
+  
+width: 219px;
+height: 64px;
+margin-top: 10px;
+
+background-color: #71A894; /* Зелений фон */
+color: white; /* Білий текст */
+border: none; /* Сховати рамку, якщо потрібно */
+border-radius: 9px; /* Закруглені краї (опціонально) */
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Вибір шрифту (опціонально) */
+font-weight: 700; /* Жирний шрифт (опціонально) */
+font-size: 0.9rem; /* Розмір шрифту (опціонально) */
+text-align: center;
+
+}
+
+
+@media (max-width: 947px) {
+.container {
+  padding-left: 34px; /* Збільшення відступу зліва */
+}
+
+.col-lg-6, .col-md-6 {
+  text-align: center; /* Вирівнювання тексту по центру */
+}
+
+
+.photo1 {
+  max-width: 100%;
+  height: auto;
+  
+  display: inline-block;
+}
+}
+
+
+.section{
+  padding-top: 15dvh;
+}
+
+
+
+.cardsec2 {
+  max-width: 427px;
+  min-height: 340px;
+  
+  
+  margin: 0 auto; /* Центрує картки всередині колонок */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.custom-card {
+    border-radius: 15px;
+    border: 2px solid #ddd;
+    background-color: #fdfdfd;
+    
+  }
+  .custom-card h5 {
+    font-family: 'Courier New', monospace;
+  }
+  .custom-card h3 {
+    font-family: 'Courier New', monospace;
+    font-weight: 800;
+  }
+  .custom-card p {
+    font-size: 0.95rem;
+  }
+  .custom-card .btn {
+    border-radius: 10px;
+  }
+  .text-uppercase {
+    font-size: 0.75rem;
+  }
+
+  .custom-offset {
+    margin-left: 6.5%; /* Це еквівалентно 1.5 колонкам (виходячи з 1 колонки = 8.33%) */
+  }
+
+
+
+  .member-card {
+    width: 100%;
+    padding: 30px;
+    max-width: 484px;
+    min-height: 200px;
+    border: 4px solid black;
+    box-shadow: 10px 10px  #71A894;
+    display: block;
+  }
+  
+  .member-title {
+    font-family: 'Courier New', monospace;
+    font-weight: 900;
+  }
+  
+  .custom-card {
+    padding: 30px;
+    
+  }
+  
+  /* Для екранів до 991px (md та sm) */
+@media (max-width: 991px) {
+    .custom-offset {
+      text-align: center;  /* Вирівнювання тексту по центру */
+    }
+
+    h2 {
+      font-size: 16rem;  /* Зменшення розміру шрифту для заголовка */
+    }
+
+    p {
+      font-size: 12px;  /* Зменшення розміру шрифту для параграфа */
+    }
+}
+
+
+
+
+
+
+.threecards{
+display: flex;
+gap: 13px;
+
+
+}
+
+.writeto{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+font-family: 'Courier New', monospace;
+font-size: 17px;
+font-weight: 800;
+
+}
+
+.textLoo{
+
+max-width: 404px;
+font-family: 'Courier New', monospace;
+font-weight: 800;
+}
+
+.share1{
+  font-size: 14px;
+  color: #ddd;
+
+background-color: #71A894;
+padding: 7px; /* Відступи для тексту */
+border-radius: 30px; /* Заокруглені кути */
+display: inline-block;
+
+}
+
+.threecard1{
+  
+
+  max-width: 560px;
+  min-height: 164px;
+  padding:15px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+    
+    box-shadow: 0px 10px   #71A894;
+  
+}
+
+
+.threecards {
+  display: flex;
+  gap: 13px;
+  margin-top: 20px;
+  font-family: 'Courier New', monospace;
+}
+
+.threecard2 {
+  
+  width: 100%;
+    max-width: 380px;
+    min-height: 258px;
+    padding: 15px 15px 5px 15px ;
+    background-color: #F3F0EA !important;
+
+  
+}
+
+.threecard3 {
+  width: 100%;
+  max-width: 240px;
+  min-height: 288px;
+  padding: 15px;
+  margin-top: 20px;
+  
+  
+}
+
+
+
+
+
+      .carditem{
+        display: flex;
+        justify-content: space-between; /* Відступ між елементами */
+    
+    width: 100%; /* Займає всю доступну ширину */
+    font-family: 'Courier New', monospace;
+    flex-wrap: wrap;
+        
+
+
+
+
+      }
+  
+
+
+      .view-profile-btn {
+        width: 100%;
+        max-width: 192px;
+        background-color: #2D3748;
+        color: #FFF;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 1.1em;
+    }
+
+
+
+    .threecard1, .threecard2, .threecard3 {
+      border: 4px solid black!important;  /* чорна рамка товщиною 2px */
+      border-radius: 15px !important; /* (необов'язково) закруглення кути, можна змінити або прибрати */
+  }
+  
+
+  .applicant{
+font-size: 20px;
+font-weight: 800;
+
+
+  }
+
+  .profile-img {
+    object-fit: cover; /* Зберігає масштаб зображення без викривлень */
+}
+
+ 
+.cardl{
+  font-family:'Courier New', Courier, monospace;
+  padding: 30px;
+  border: 0.1px solid #838383; /* Світло-сіра рамка */
+  border-radius: 25px; /* Злегка закруглені кути */
+  
+  background-color: #fff; /* Білий фон */
+  flex-wrap: wrap;
+} 
+  
+
+.card-body-l{
+  display: flex;
+  flex-direction: column;
+  max-height: 240px;
+  max-width: 427px;
+}
+
+.btni3 {
+    
+  width: 63px;
+  height: 32px;
+ 
+ margin-right: 90px;
+  background-color: #71A894; /* Зелений фон */
+  color: white; /* Білий текст */
+  border: none; /* Сховати рамку, якщо потрібно */
+  border-radius: 15px; /* Закруглені краї (опціонально) */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Вибір шрифту (опціонально) */
+  font-weight: 700; /* Жирний шрифт (опціонально) */
+  font-size: 0.9rem; /* Розмір шрифту (опціонально) */
+text-align: center;
+ 
+}
+
+.textline{
+
+  display: flex;
+  justify-content: space-between;
+  
+  
+  
+    }
+
+
+    .mainbut{
+      display:flex;
+      justify-content: center;
+      
+      
+      }
+      
+      .btnimain {
+          margin-top: 60px;
+          margin-bottom: 30px;
+          width: 136px;
+          height: 64px;
+         
+          justify-content: center;
+          background-color: #2e3130; /* Зелений фон */
+          color: white; /* Білий текст */
+          border: none; /* Сховати рамку, якщо потрібно */
+          border-radius: 8px; /* Закруглені краї (опціонально) */
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Вибір шрифту (опціонально) */
+          font-weight: 700; /* Жирний шрифт (опціонально) */
+          font-size: 1.1rem; /* Розмір шрифту (опціонально) */
+      text-align: center;
+         
+      }
+
+
+      .divider{
+width: 100%;
+
+      }
+
+  
+      .full-width-section {
+        position: relative;
+    
+    width: 100%; /* Забезпечує, що секція не буде ширше за екран */
+    left: -5%;
+    }
+    
+    .full-width-image {
+      position: relative;
+      width: 100vw; /* Розтягує зображення на всю ширину екрану */
+        min-width: 1000px;
+        display: block; /* Прибирає зайві відступи під зображенням */
+    }
+    
+    .footer {
+      height: 43px;
+      padding-left: calc(50% - 1370px / 2) ;
+      padding-top: 40px;
+      padding-right: calc(50% - 1328px / 2);
+      
+  }
+
+
+  @media (max-width: 1001px) {
+    .full-width-section {
+      overflow-x: hidden;
+  }
+}
